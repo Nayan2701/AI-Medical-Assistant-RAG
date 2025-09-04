@@ -1,0 +1,238 @@
+{
+  "patients": [
+    {
+      "id": 1,
+      "demographics": {
+        "name": "Johnathan Miller",
+        "age": 68,
+        "gender": "Male",
+        "occupation": "Retired Construction Worker"
+      },
+      "medical_history": {
+        "past_surgeries": [
+          {
+            "procedure": "Appendectomy",
+            "year": 1985
+          },
+          {
+            "procedure": "Right Knee Arthroscopy",
+            "year": 2010
+          }
+        ],
+        "chronic_conditions": [
+          "Hypertension (HTN)",
+          "Type 2 Diabetes Mellitus (DM2)",
+          "Hyperlipidemia"
+        ],
+        "allergies": [
+          "Penicillin (causes rash)"
+        ]
+      },
+      "clinical_notes": [
+        {
+          "date": "2024-01-15",
+          "provider": "Dr. Emily Carter (Internal Medicine)",
+          "note": "Pt here for his quarterly check-up for his chronic conditions. Reports good medication adherence. No new complaints. Denies chest pain, SOB, or palpitations. Blood pressure in office is 138/86 mmHg. Lungs are clear to auscultation. Will continue with current medication regimen. Discussed the importance of diet and exercise in managing his DM2 and HTN."
+        },
+        {
+          "date": "2024-04-22",
+          "provider": "Nurse Practitioner Sarah Jenkins (Cardiology)",
+          "note": "Follow-up visit for HTN management. Pt reports occasional dizziness, especially when standing up too quickly. BP today is 130/82 mmHg. Reviewed his home BP log, which shows readings are consistently in the 130s/80s. Encouraged him to continue monitoring and to rise slowly from a seated or lying position. No changes to his lisinopril at this time."
+        },
+        {
+          "date": "2024-07-10",
+          "provider": "Dr. Emily Carter (Internal Medicine)",
+          "note": "Pt presents with c/o increased thirst and frequent urination over the past 2 weeks. Fingerstick glucose in office is 250 mg/dL. A1c drawn today. Suspect his DM2 is not well-controlled. Pt admits to some dietary indiscretions recently. Counseled on the importance of adhering to his diabetic diet. Will await A1c results before making any medication adjustments."
+        }
+      ],
+      "lab_results": [
+        {
+          "date": "2024-07-10",
+          "results": [
+            { "test": "Hemoglobin A1c", "value": "8.5%" },
+            { "test": "Fasting Blood Glucose", "value": "180 mg/dL" },
+            { "test": "Total Cholesterol", "value": "210 mg/dL" },
+            { "test": "HDL Cholesterol", "value": "35 mg/dL" },
+            { "test": "LDL Cholesterol", "value": "140 mg/dL" },
+            { "test": "Triglycerides", "value": "175 mg/dL" },
+            { "test": "Blood Pressure", "value": "142/88 mmHg" }
+          ]
+        }
+      ],
+      "medication_list": [
+        { "medication": "Lisinopril", "dosage": "20mg daily", "condition": "Hypertension" },
+        { "medication": "Metformin", "dosage": "1000mg twice a day", "condition": "Diabetes" },
+        { "medication": "Atorvastatin", "dosage": "40mg daily", "condition": "High Cholesterol" },
+        { "medication": "Aspirin", "dosage": "81mg daily", "condition": "Cardiovascular Prevention" }
+      ]
+    },
+    {
+      "id": 2,
+      "demographics": {
+        "name": "Maria Rodriguez",
+        "age": 45,
+        "gender": "Female",
+        "occupation": "High School Teacher"
+      },
+      "medical_history": {
+        "past_surgeries": [
+          {
+            "procedure": "Cholecystectomy",
+            "year": 2018
+          }
+        ],
+        "chronic_conditions": [
+          "Asthma",
+          "Generalized Anxiety Disorder (GAD)"
+        ],
+        "allergies": [
+          "No Known Drug Allergies (NKDA)"
+        ]
+      },
+      "clinical_notes": [
+        {
+          "date": "2024-02-05",
+          "provider": "Dr. David Chen (Pulmonology)",
+          "note": "Pt here for routine asthma follow-up. Reports her symptoms are well-controlled with her current inhaler regimen. No recent exacerbations. Denies wheezing or SOB. Lung function tests today are within normal limits. Will continue with her current treatment plan."
+        },
+        {
+          "date": "2024-05-12",
+          "provider": "Dr. David Chen (Pulmonology)",
+          "note": "Pt called the office with c/o increased wheezing and coughing over the past few days. Symptoms are worse at night. Has been using her rescue inhaler more frequently. Suspect a mild asthma exacerbation, possibly triggered by seasonal allergies. Advised her to start a short course of oral steroids and to follow up if her symptoms do not improve."
+        },
+        {
+          "date": "2024-08-01",
+          "provider": "Dr. Jennifer Lee (Psychiatry)",
+          "note": "Pt here for her regular GAD follow-up. Reports feeling more anxious lately, which she attributes to the start of the new school year. Denies any panic attacks. We discussed coping strategies and relaxation techniques. She feels her current medication is still effective, but we will consider a small dose increase if her symptoms worsen."
+        }
+      ],
+      "lab_results": [
+        {
+          "date": "2024-02-05",
+          "results": [
+            { "test": "Blood Pressure", "value": "120/78 mmHg" },
+            { "test": "Cholesterol Panel", "value": "Within normal limits" },
+            { "test": "Fasting Blood Glucose", "value": "90 mg/dL" }
+          ]
+        }
+      ],
+      "medication_list": [
+        { "medication": "Fluticasone/Salmeterol (Advair Diskus)", "dosage": "250/50 mcg one inhalation twice daily", "condition": "Asthma" },
+        { "medication": "Albuterol Inhaler", "dosage": "as needed", "condition": "Shortness of breath" },
+        { "medication": "Sertraline (Zoloft)", "dosage": "100mg daily", "condition": "Anxiety" }
+      ]
+    },
+    {
+      "id": 3,
+      "demographics": {
+        "name": "David Chen",
+        "age": 72,
+        "gender": "Male",
+        "occupation": "Retired Accountant"
+      },
+      "medical_history": {
+        "past_surgeries": [
+          {
+            "procedure": "Coronary Artery Bypass Grafting (CABG) x3",
+            "year": 2015
+          }
+        ],
+        "chronic_conditions": [
+          "Coronary Artery Disease (CAD)",
+          "Congestive Heart Failure (CHF)",
+          "Atrial Fibrillation (AFib)"
+        ],
+        "allergies": [
+          "Sulfa drugs (causes hives)"
+        ]
+      },
+      "clinical_notes": [
+        {
+          "date": "2024-03-20",
+          "provider": "Dr. Sarah Jenkins (Cardiology)",
+          "note": "Pt here for his semi-annual cardiology follow-up. Reports he has been feeling well and has been able to maintain his usual level of activity without any chest pain or SOB. EKG today shows he is in his baseline AFib. Will continue with his current medication regimen."
+        },
+        {
+          "date": "2024-06-15",
+          "provider": "Dr. Sarah Jenkins (Cardiology)",
+          "note": "Pt presents to the ED with c/o worsening SOB and a 5-pound weight gain over the past week. On exam, he has 2+ pitting edema in his lower extremities and crackles in the bases of his lungs. BNP is elevated. Admitted for a CHF exacerbation."
+        },
+        {
+          "date": "2024-06-18",
+          "provider": "Hospitalist Note (Dr. Michael Johnson)",
+          "note": "Pt has responded well to IV diuretics. His weight is down by 6 pounds, and his SOB has resolved. He will be discharged home tomorrow on an increased dose of his diuretic. Will need to follow up with cardiology in 1 week."
+        }
+      ],
+      "lab_results": [
+        {
+          "date": "2024-06-15",
+          "results": [
+            { "test": "B-type Natriuretic Peptide (BNP)", "value": "1200 pg/mL" },
+            { "test": "Blood Pressure", "value": "110/70 mmHg" },
+            { "test": "Total Cholesterol", "value": "150 mg/dL" },
+            { "test": "HDL Cholesterol", "value": "45 mg/dL" },
+            { "test": "LDL Cholesterol", "value": "80 mg/dL" },
+            { "test": "Triglycerides", "value": "125 mg/dL" }
+          ]
+        }
+      ],
+      "medication_list": [
+        { "medication": "Metoprolol Succinate", "dosage": "100mg daily", "condition": "Heart rate control and CHF" },
+        { "medication": "Lisinopril", "dosage": "10mg daily", "condition": "CHF" },
+        { "medication": "Furosemide", "dosage": "40mg daily", "condition": "Fluid retention" },
+        { "medication": "Apixaban (Eliquis)", "dosage": "5mg twice a day", "condition": "Stroke prevention in AFib" },
+        { "medication": "Rosuvastatin", "dosage": "20mg daily", "condition": "High Cholesterol" }
+      ]
+    },
+    {
+      "id": 4,
+      "demographics": {
+        "name": "Emily Williams",
+        "age": 32,
+        "gender": "Female",
+        "occupation": "Graphic Designer"
+      },
+      "medical_history": {
+        "past_surgeries": [],
+        "chronic_conditions": [
+          "Crohn's Disease"
+        ],
+        "allergies": [
+          "No Known Drug Allergies (NKDA)"
+        ]
+      },
+      "clinical_notes": [
+        {
+          "date": "2024-01-10",
+          "provider": "Dr. Jessica Miller (Gastroenterology)",
+          "note": "Pt here for a routine follow-up for her Crohn's disease. She has been in remission for the past 6 months on her current medication. Denies any abdominal pain, diarrhea, or other symptoms. Will continue with her current treatment plan."
+        },
+        {
+          "date": "2024-04-05",
+          "provider": "Dr. Jessica Miller (Gastroenterology)",
+          "note": "Pt calls the office with c/o a flare-up of her Crohn's symptoms, including abdominal cramping and bloody diarrhea. She has been under a lot of stress at work, which she feels may have triggered this flare. Will start her on a course of oral steroids and have her come in for an office visit next week."
+        },
+        {
+          "date": "2024-07-15",
+          "provider": "Dr. Jessica Miller (Gastroenterology)",
+          "note": "Pt has responded well to the steroid taper and is now back in remission. We discussed long-term management options, including the possibility of starting a biologic medication to help prevent future flares. Pt is hesitant to start a new medication at this time but will consider it if she has another flare-up."
+        }
+      ],
+      "lab_results": [
+        {
+          "date": "2024-04-12",
+          "results": [
+            { "test": "C-Reactive Protein (CRP)", "value": "25 mg/L" },
+            { "test": "Erythrocyte Sedimentation Rate (ESR)", "value": "30 mm/hr" },
+            { "test": "Hemoglobin", "value": "11.5 g/dL" },
+            { "test": "Blood Pressure", "value": "115/75 mmHg" }
+          ]
+        }
+      ],
+      "medication_list": [
+        { "medication": "Mesalamine (Lialda)", "dosage": "2.4g daily", "condition": "Crohn's disease maintenance" },
+        { "medication": "Budesonide (Entocort EC)", "dosage": "9mg daily", "condition": "During flares" }
+      ]
+    }
+  ]
+}
