@@ -11,7 +11,7 @@ from langchain_community.chat_models import ChatOllama
 from langchain_core.prompts import ChatPromptTemplate
 from typing import Any, List, Dict
 from langchain_google_genai import ChatGoogleGenerativeAI
-from dotenv import load_dotenv
+
 
 # Step 1: Download JSON from Google Drive if not already present
 
